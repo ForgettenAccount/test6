@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <style type="text/css" media="">
+  body {
+      background-color: #efefef;
+      font-family: sans-serif;
+      font-size: 30px;
+      overflow: hidden;
+    }
+    .title {
+      margin-left: 5px;
+    }
+    .container {
+      display: flex;
+      margin: 50%;
+      margin-left: 100px;
+      margin-right: 50px;
+      top: 100px;
+      box-shadow: 0 2px 25px rgba(0, 0, 0, 0.5);
+      border-radius: 10px;
+    }
+    .emailEnter {
+      margin-bottom: -10px;
+      border: none;
+      outline: none;
+    }
+    .passEnter {
+      margin-top: 10px;
+      border: none;
+      outline: none;
+    }
+    .contents {
+      margin: 10%;
+    }
+    .btn-login {
+      outline-color: #009FFF;
+      border-color: #009FFF;
+      transition: 0.4s;
+    }
+    .btn-login:hover {
+      background-color: #009FFF;
+      color: #eeeeee;
+      transition: 0.4s;
+    }
+  </style>
+  <title>Login Page</title>
+  
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Login</h1>
+    <div class="login">
+      <div class="contents">
+        <input type="email" name="emailEnter" id="emailEnter" value="" placeholder="Email"/>
+        <input type="password" name="passEnter" id="passEnter" value="" placeholder="Password"/>
+        <button id="btn-login" type="submit">Login</button>
+      </div>
+    </div>
+  </div>
+</body>
